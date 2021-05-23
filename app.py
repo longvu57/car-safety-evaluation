@@ -68,7 +68,7 @@ def fill_missing_val(df):
     df.fillna(method="ffill", inplace=True)
 
 def main():
-    """Car ML App"""
+    st.set_page_config(page_title="Car Safety Evaluation", page_icon=None, layout='centered', initial_sidebar_state='auto')
 
     st.title("Car Safety Evaluation Application")
 
